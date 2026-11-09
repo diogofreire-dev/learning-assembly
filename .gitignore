@@ -1,0 +1,9 @@
+# Compiled programs (see Makefile)
+build/
+
+# Object files and debug info
+*.o
+*.dSYM/
+
+# macOS
+.DS_Store
