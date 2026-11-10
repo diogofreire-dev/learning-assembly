@@ -21,7 +21,7 @@ Folders are added one at a time, as I get to each topic.
 - [ ] 06 – Mini-Project
 - [ ] 07 – x86-64 on Linux: registers, AT&T vs Intel syntax, system calls, the same exercises again
 
-Each folder has a `notes.md` and, from topic 01 on, the exercises (`.s`).
+Each folder has a `notes.md` and, from topic 01 on, an `exercises.md` with the statements and the solutions (`.s`).
 
 ## How to build
 
