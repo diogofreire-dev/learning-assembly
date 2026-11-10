@@ -6,10 +6,13 @@ Assembly exercises, the next step after [learning-c](https://github.com/diogofre
 
 Read and write Assembly well enough to understand what a compiled program really does, as a foundation for reverse engineering and binary exploitation.
 
-I start with **ARM64**, because it runs natively on this Mac (Apple Silicon), and then move to **x86-64 on Linux** (via Docker or a VM), which is what most CTF and exploitation material targets.
+I am choosing a course to follow, and the order of the topics below may change to match it. This Mac runs **ARM64**; most CTF and exploitation material uses **x86-64 on Linux**.
 
 ## Plan (by topic)
 
+Folders are added one at a time, as I get to each topic.
+
+- [ ] 00 – How it works: the CPU, registers, memory, instructions (big picture, no code)
 - [ ] 01 – Basics: registers, `mov`, arithmetic, exit codes, system calls
 - [ ] 02 – Control flow: `cmp`, flags, branches, loops
 - [ ] 03 – Memory: `ldr`/`str`, addressing modes, data sections, arrays and strings
@@ -18,7 +21,7 @@ I start with **ARM64**, because it runs natively on this Mac (Apple Silicon), an
 - [ ] 06 – Mini-Project
 - [ ] 07 – x86-64 on Linux: registers, AT&T vs Intel syntax, system calls, the same exercises again
 
-Each folder has the exercises (`.s`) and a `notes.md`.
+Each folder has a `notes.md` and, from topic 01 on, the exercises (`.s`).
 
 ## How to build
 
